@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ru.dinarastepina.keyboardview.KeyboardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/keyboard_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    app:keyPreviewLayout="@layout/key_preview"
+    app:keyTextColor="@color/lighterBlack"
+    android:shadowRadius="0.0"
+    android:paddingBottom="10dp"
+    android:popupLayout="@layout/popup_layout"
+    app:keyBackground="@drawable/keyboard_background"
+    android:background="#fafafa">
+</ru.dinarastepina.keyboardview.KeyboardView>

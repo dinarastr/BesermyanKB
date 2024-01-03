@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:verticalGap="1dp"
+    app:keyHeight="50dp">
+
+    <Row>
+        <Key app:codes="49" app:keyLabel="1"  app:keyWidth="10%p" app:keyEdgeFlags="left"/>
+        <Key app:codes="50" app:keyLabel="2"  app:keyWidth="10%p" />
+        <Key app:codes="51" app:keyLabel="3"  app:keyWidth="10%p" />
+        <Key app:codes="52" app:keyLabel="4"  app:keyWidth="10%p" />
+        <Key app:codes="53" app:keyLabel="5"  app:keyWidth="10%p" />
+        <Key app:codes="54" app:keyLabel="6"  app:keyWidth="10%p" />
+        <Key app:codes="55" app:keyLabel="7" app:keyWidth="10%p" />
+        <Key app:codes="56" app:keyLabel="8" app:keyWidth="10%p" />
+        <Key app:codes="57" app:keyLabel="9" app:keyWidth="10%p" />
+        <Key app:codes="48" app:keyLabel="0"  app:keyWidth="10%p" />
+    </Row>
+
+    <Row>
+        <Key app:codes="64" app:keyLabel="\@" app:keyEdgeFlags="left" app:keyWidth="10%p" />
+        <Key app:codes="35" app:keyLabel="#" app:keyWidth="10%p" />
+        <Key app:codes="36" app:keyLabel="$" app:keyWidth="10%p" />
+        <Key app:codes="95" app:keyLabel="_"  app:keyWidth="10%p" />
+        <Key app:codes="45" app:keyLabel="-" app:keyWidth="10%p" />
+        <Key app:codes="8211" app:keyLabel="–" app:keyWidth="10%p" />
+        <Key app:codes="43" app:keyLabel="+"  app:keyWidth="10%p" />
+        <Key app:codes="40" app:keyLabel="("  app:keyWidth="10%p" />
+        <Key app:codes="41" app:keyLabel=")"  app:keyWidth="10%p" />
+        <Key app:codes="60" app:keyLabel="&lt;" app:keyWidth="10%p"
+            app:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key app:codes="61" app:keyLabel="=" app:keyEdgeFlags="left" app:keyWidth="9.5%p" />
+        <Key app:codes="42" app:keyLabel="*" app:keyWidth="9.5%p" />
+        <Key app:codes="34" app:keyLabel="&quot;" app:keyWidth="9.5%p" />
+        <Key app:codes="39" app:keyLabel="'" app:keyWidth="9.5%p" />
+        <Key app:codes="58" app:keyLabel=":" app:keyWidth="9.5%p" />
+        <Key app:codes="59" app:keyLabel=";" app:keyWidth="9.5%p" />
+        <Key app:codes="33" app:keyLabel="!" app:keyWidth="9.5%p" />
+        <Key app:codes="63" app:keyLabel="\?" app:keyWidth="9.5%p" />
+        <Key app:codes="62" app:keyLabel="&gt;"  app:keyWidth="9.5%p" />
+        <Key app:codes="-5"
+            app:keyIcon="@drawable/backspace"
+            app:keyEdgeFlags="right"
+            app:keyWidth="14%p"
+            app:isRepeatable="true"/>
+    </Row>
+
+    <Row app:rowEdgeFlags="bottom">
+        <Key app:keyLabel="абс" app:keyEdgeFlags="left"  app:keyWidth="15%p" app:codes="-11"/>
+        <Key app:keyLabel="%" app:codes="37" app:keyWidth="10%p" />
+        <Key app:keyIcon="@drawable/ic_language" app:codes="-6" app:keyWidth="10%p"/>
+        <Key app:keyLabel="Чу́мэл җяре́" app:isRepeatable="true" app:keyWidth="30%p" app:codes="32"/>
+        <Key app:keyLabel="/" app:codes="47" app:keyWidth="10%p"/>
+        <Key app:keyLabel="\\" app:codes="92" app:keyWidth="10%p"/>
+        <Key app:keyIcon="@drawable/ic_return" app:codes="10"  app:keyWidth="15%p"  app:keyEdgeFlags="right"/>
+    </Row>
+
+
+</Keyboard>
