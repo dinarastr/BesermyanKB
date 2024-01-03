@@ -8,6 +8,11 @@
         />
     <item
         android:state_pressed="true"
-        android:drawable="@drawable/popup_normal"
+        android:drawable="@drawable/pressed"
         />
+    <item
+        android:state_hovered="true"
+        android:drawable="@drawable/pressed"
+        />
+
 </selector>
