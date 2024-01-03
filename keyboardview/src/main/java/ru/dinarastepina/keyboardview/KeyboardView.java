@@ -1097,9 +1097,11 @@ public class KeyboardView extends View implements View.OnClickListener {
                     }
 
                     public void swipeUp() {
+                        dismissPopupKeyboard();
                     }
 
                     public void swipeDown() {
+                        dismissPopupKeyboard();
                     }
 
                     public void onPress(int primaryCode) {
@@ -1108,6 +1110,7 @@ public class KeyboardView extends View implements View.OnClickListener {
 
                     public void onRelease(int primaryCode) {
                         mKeyboardActionListener.onRelease(primaryCode);
+                        dismissPopupKeyboard();
                     }
                 });
                 //mInputView.setSuggest(mSuggest);
@@ -1135,8 +1138,10 @@ public class KeyboardView extends View implements View.OnClickListener {
             mPopupY = mPopupY - mMiniKeyboardContainer.getMeasuredHeight();
             final int x = mPopupX + mMiniKeyboardContainer.getPaddingRight() + mCoordinates[0];
             final int y = mPopupY + mMiniKeyboardContainer.getPaddingBottom() + mCoordinates[1];
-            mMiniKeyboard.setPopupOffset(x < 0 ? 0 : x, y);
-            mMiniKeyboard.setShifted(isShifted());
+            if (mMiniKeyboard != null) {
+                mMiniKeyboard.setPopupOffset(Math.max(x, 0), y);
+                mMiniKeyboard.setShifted(isShifted());
+            }
             mPopupKeyboard.setContentView(mMiniKeyboardContainer);
             mPopupKeyboard.setWidth(mMiniKeyboardContainer.getMeasuredWidth());
             mPopupKeyboard.setHeight(mMiniKeyboardContainer.getMeasuredHeight());
@@ -1165,6 +1170,7 @@ public class KeyboardView extends View implements View.OnClickListener {
                         me.getX(), me.getY(), me.getMetaState());
                 result = onModifiedTouchEvent(down, false);
                 down.recycle();
+                dismissPopupKeyboard();
                 // If it's an up action, then deliver the up as well.
                 if (action == MotionEvent.ACTION_UP) {
                     result = onModifiedTouchEvent(me, true);
@@ -1257,6 +1263,7 @@ public class KeyboardView extends View implements View.OnClickListener {
                     mHandler.sendMessageDelayed(msg, LONGPRESS_TIMEOUT);
                 }
                 showPreview(keyIndex);
+                dismissPopupKeyboard();
                 break;
 
             case MotionEvent.ACTION_MOVE:

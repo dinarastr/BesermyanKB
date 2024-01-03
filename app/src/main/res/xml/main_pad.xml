@@ -1,48 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Keyboard 
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<Keyboard xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     app:verticalGap="1dp"
     app:keyHeight="50dp">
 
     <Row>
-        <Key app:codes="1081" app:keyLabel="й" app:keyWidth="9.09%p" app:keyEdgeFlags="left"/>
-        <Key app:codes="1094" app:keyLabel="ц" app:keyWidth="9.09%p"/>
-        <Key app:codes="1091" app:keyLabel="у" app:keyWidth="9.09%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="ӯӱ̄"/>
-        <Key app:codes="1082" app:keyLabel="к" app:keyWidth="9.09%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="ӄ"/>
-        <Key app:codes="1077" app:keyLabel="е" app:keyWidth="9.09%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="ё̄"/>
-        <Key app:codes="1085" app:keyLabel="н" app:keyWidth="9.09%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="ӈ"/>
-        <Key app:codes="1075" app:keyLabel="г" app:keyWidth="9.09%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="ӷ"/>
-        <Key app:codes="1096" app:keyLabel="ш" app:keyWidth="9.09%p"/>
-        <Key app:codes="1097" app:keyLabel="щ" app:keyWidth="9.09%p"/>
-        <Key app:codes="1079" app:keyLabel="з" app:keyWidth="9.09%p"/>
-        <Key app:codes="1093" app:keyLabel="х" app:keyWidth="9.09%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="ӽ" app:keyEdgeFlags="right"/>
+        <Key app:codes="1257" app:keyLabel="ө" app:keyWidth="9.09%p" app:keyEdgeFlags="left"/>
+        <Key app:codes="1253" app:keyLabel="ӥ" app:keyWidth="9.09%p"/>
+        <Key app:codes="1255" app:keyLabel="ӧ" app:keyWidth="9.09%p"/>
+        <Key app:codes="1105" app:keyLabel="ё" app:keyWidth="9.09%p"/>
+        <Key app:codes="1118" app:keyLabel="ў" app:keyWidth="9.09%p"/>
+        <Key app:codes="1247" app:keyLabel="ӟ" app:keyWidth="9.09%p"/>
+        <Key app:codes="1245" app:keyLabel="ӝ" app:keyWidth="9.09%p"/>
+        <Key app:codes="1269" app:keyLabel="ӵ" app:keyWidth="9.09%p"/>
+        <Key app:codes="1195" app:keyLabel="ҫ" app:keyWidth="9.09%p"/>
+        <Key app:codes="1177" app:keyLabel="ҙ" app:keyWidth="9.09%p"/>
+        <Key app:codes="1098" app:keyLabel="ъ" app:keyWidth="9.09%p" app:keyEdgeFlags="right"/>
     </Row>
 
     <Row>
-        <Key app:codes="1092" app:keyLabel="ф" app:keyWidth="9.09%p" app:keyEdgeFlags="left"/>
-        <Key app:codes="1099" app:keyLabel="ы" app:keyWidth="9.09%p" />
+        <Key app:codes="1081" app:keyLabel="й" app:keyWidth="9.09%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="1̄" app:keyEdgeFlags="left"/>
+        <Key app:codes="1094" app:keyLabel="ц" app:keyWidth="9.09%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="2"/>
+        <Key app:codes="1091" app:keyLabel="у" app:keyWidth="9.09%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="3"/>
+        <Key app:codes="1082" app:keyLabel="к" app:keyWidth="9.09%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="4"/>
+        <Key app:codes="1077" app:keyLabel="е" app:keyWidth="9.09%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="5ёѣ"/>
+        <Key app:codes="1085" app:keyLabel="н" app:keyWidth="9.09%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="6"/>
+        <Key app:codes="1075" app:keyLabel="г" app:keyWidth="9.09%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="7ґ"/>
+        <Key app:codes="1096" app:keyLabel="ш" app:keyWidth="9.09%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="8"/>
+        <Key app:codes="1097" app:keyLabel="щ" app:keyWidth="9.09%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="9"/>
+        <Key app:codes="1079" app:keyLabel="з" app:keyWidth="9.09%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="0"/>
+        <Key app:codes="1093" app:keyLabel="х" app:keyWidth="9.09%p" app:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key app:codes="1092" app:keyLabel="ф" app:keyWidth="9.09%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="ө" app:keyEdgeFlags="left"/>
+        <Key app:codes="1099" app:keyLabel="ы" app:keyWidth="9.09%p"/>
         <Key app:codes="1074" app:keyLabel="в" app:keyWidth="9.09%p"/>
-        <Key app:codes="1072" app:keyLabel="а" app:keyWidth="9.09%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="ӓ"/>
+        <Key app:codes="1072" app:keyLabel="а" app:keyWidth="9.09%p"/>
         <Key app:codes="1087" app:keyLabel="п" app:keyWidth="9.09%p"/>
         <Key app:codes="1088" app:keyLabel="р" app:keyWidth="9.09%p"/>
-        <Key app:codes="1086" app:keyLabel="о"  app:keyWidth="9.09%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="ӧ"/>
-        <Key app:codes="1083" app:keyLabel="л"  app:keyWidth="9.09%p" />
+        <Key app:codes="1086" app:keyLabel="о"  app:keyWidth="9.09%p"/>
+        <Key app:codes="1083" app:keyLabel="л"  app:keyWidth="9.09%p"/>
         <Key app:codes="1076" app:keyLabel="д" app:keyWidth="9.09%p"/>
-        <Key app:codes="1078" app:keyLabel="ж" app:keyWidth="9.09%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="җ"/>
-        <Key app:codes="1101" app:keyLabel="э"  app:keyWidth="9.09%p" app:keyEdgeFlags="right" />
+        <Key app:codes="1078" app:keyLabel="ж" app:keyWidth="9.09%p" />
+        <Key app:codes="1101" app:keyLabel="э"  app:keyWidth="9.09%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="є" app:keyEdgeFlags="right" />
     </Row>
 
     <Row>
         <Key app:codes="-8" app:keyIcon="@drawable/ic_uppercase" app:keyWidth="14%p" app:keyEdgeFlags="left"/>
-        <Key app:codes="1103" app:keyLabel="я" app:keyWidth="8%p" />
-        <Key app:codes="1095" app:keyLabel="ч" app:keyWidth="8%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="ҷ"/>
+        <Key app:codes="1103" app:keyLabel="я" app:keyWidth="8%p"/>
+        <Key app:codes="1095" app:keyLabel="ч" app:keyWidth="8%p"/>
         <Key app:codes="1089" app:keyLabel="с" app:keyWidth="8%p"/>
         <Key app:codes="1084" app:keyLabel="м" app:keyWidth="8%p"/>
-        <Key app:codes="1080" app:keyLabel="и" app:keyWidth="8%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="ӣ̇"/>
+        <Key app:codes="1080" app:keyLabel="и" app:keyWidth="8%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="їі"/>
         <Key app:codes="1090" app:keyLabel="т" app:keyWidth="8%p"/>
         <Key app:codes="1100" app:keyLabel="ь" app:keyWidth="8%p" app:popupKeyboard="@xml/additional_pad" app:popupCharacters="ъ"/>
         <Key app:codes="1073" app:keyLabel="б" app:keyWidth="8%p"/>
-        <Key app:codes="1102" app:keyLabel="ю" app:keyWidth="8%p" />
+        <Key app:codes="1102" app:keyLabel="ю" app:keyWidth="8%p"/>
         <Key app:codes="-5"
             app:keyWidth="14%p"
             app:keyIcon="@drawable/backspace"
@@ -52,12 +66,11 @@
 
     <Row app:rowEdgeFlags="bottom">
         <Key app:keyLabel="\?123" app:keyWidth="15%p" app:keyEdgeFlags="left" app:codes="-2"/>
-        <Key app:keyLabel="." app:codes="46"  app:keyWidth="9%p"/>
-        <Key app:keyIcon="@drawable/ic_language" app:codes="-6" app:keyWidth="9%p"/>
-        <Key app:keyLabel="Бесерман" app:isRepeatable="true" app:keyWidth="25%p" app:codes="32"/>
-        <Key app:keyLabel="," app:codes="44" app:keyWidth="9%p"/>
-        <Key app:keyLabel="¯" app:codes="772"  app:keyWidth="9%p"/>
-        <Key app:keyLabel=" ́" app:codes="769" app:keyWidth="9%p"/>
+        <Key app:keyLabel="." app:codes="46"  app:keyWidth="11%p"/>
+        <Key app:keyIcon="@drawable/ic_language" app:codes="-6" app:keyWidth="11%p"/>
+        <Key app:keyLabel="Бесерман" app:isRepeatable="true" app:keyWidth="26%p" app:codes="32"/>
+        <Key app:keyLabel="," app:codes="44" app:keyWidth="11%p"/>
+        <Key app:keyLabel=" ́" app:codes="769" app:keyWidth="11%p"/>
         <Key app:keyIcon="@drawable/ic_return" app:keyWidth="15%p" app:codes="10" app:keyEdgeFlags="right"/>
     </Row>
 

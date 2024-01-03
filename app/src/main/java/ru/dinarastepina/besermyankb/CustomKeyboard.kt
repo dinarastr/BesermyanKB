@@ -17,7 +17,6 @@ class BesermyanKeyboard : InputMethodService(), KeyboardView.OnKeyboardActionLis
     private var firstTime: Boolean = true
     private lateinit var keyboardView: KeyboardView
     override fun onPress(primaryCode: Int) {
-        Log.i("keyboard", primaryCode.toString())
     }
 
     override fun onRelease(primaryCode: Int) {
