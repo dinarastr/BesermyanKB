@@ -1076,7 +1076,7 @@ public class KeyboardView extends View implements View.OnClickListener {
                         Context.LAYOUT_INFLATER_SERVICE);
                 mMiniKeyboardContainer = inflater.inflate(mPopupLayout, null);
                 mMiniKeyboard = mMiniKeyboardContainer.findViewById(
-                        R.id.keyboardView);
+                        R.id.popup);
                 View closeButton = mMiniKeyboardContainer.findViewById(R.id.closeButton);
                 if (closeButton != null) closeButton.setOnClickListener(this);
                 mMiniKeyboard.setOnKeyboardActionListener(new OnKeyboardActionListener() {

@@ -10,7 +10,7 @@
     app:keyTextColor="@color/lighterBlack"
     android:shadowRadius="0.0"
     android:paddingBottom="10dp"
-    android:popupLayout="@layout/popup_layout"
+    app:popupLayout="@layout/popup_layout"
     app:keyBackground="@drawable/keyboard_background"
     android:background="#fafafa">
 </ru.dinarastepina.keyboardview.KeyboardView>
