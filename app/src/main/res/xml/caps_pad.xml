@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Keyboard 
+<Keyboard
     xmlns:app="http://schemas.android.com/apk/res-auto"
-app:verticalGap="1dp"
-app:keyHeight="50dp"
+    app:verticalGap="1dp"
+    app:keyHeight="50dp"
     >
-
 <Row>
         <Key app:codes="1049" app:keyLabel="Й" app:keyWidth="9.09%p" app:keyEdgeFlags="left"/>
         <Key app:codes="1062" app:keyLabel="Ц"  app:keyWidth="9.09%p" />
@@ -55,7 +54,7 @@ app:keyHeight="50dp"
         <Key app:keyLabel="\?123" app:keyWidth="15%p" app:keyEdgeFlags="left" app:codes="-2"/>
         <Key app:keyLabel="." app:codes="46"  app:keyWidth="9%p"/>
         <Key app:keyIcon="@drawable/ic_language" app:codes="-6" app:keyWidth="9%p"/>
-        <Key app:keyLabel="Чу́мэл җяре́" app:isRepeatable="true" app:keyWidth="25%p" app:codes="32"/>
+        <Key app:keyLabel="Бесерман" app:isRepeatable="true" app:keyWidth="25%p" app:codes="32"/>
         <Key app:keyLabel="," app:codes="44" app:keyWidth="9%p"/>
         <Key app:keyLabel="¯" app:codes="772"  app:keyWidth="9%p"/>
         <Key app:keyLabel=" ́" app:codes="769" app:keyWidth="9%p"/>

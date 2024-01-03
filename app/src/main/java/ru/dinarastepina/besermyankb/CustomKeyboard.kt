@@ -55,11 +55,11 @@ class BesermyanKeyboard : InputMethodService(), KeyboardView.OnKeyboardActionLis
             -6 -> mInputManager.switchToLastInputMethod(token)
             -2 -> switchKeyboard(R.xml.numbers_pad)
             -8 -> switchKeyboard(R.xml.caps_pad)
-            -10, -11 -> switchKeyboard(R.xml.selkup_pad)
+            -10, -11 -> switchKeyboard(R.xml.main_pad)
             else -> {
                 inputConnection.commitText(primaryCode.toChar().toString(), 1)
                 if (firstTime) {
-                    switchKeyboard(R.xml.selkup_pad)
+                    switchKeyboard(R.xml.main_pad)
                     firstTime = false
                 }
             }

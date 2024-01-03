@@ -54,7 +54,7 @@
         <Key app:keyLabel="\?123" app:keyWidth="15%p" app:keyEdgeFlags="left" app:codes="-2"/>
         <Key app:keyLabel="." app:codes="46"  app:keyWidth="9%p"/>
         <Key app:keyIcon="@drawable/ic_language" app:codes="-6" app:keyWidth="9%p"/>
-        <Key app:keyLabel="Чу́мэл җяре́" app:isRepeatable="true" app:keyWidth="25%p" app:codes="32"/>
+        <Key app:keyLabel="Бесерман" app:isRepeatable="true" app:keyWidth="25%p" app:codes="32"/>
         <Key app:keyLabel="," app:codes="44" app:keyWidth="9%p"/>
         <Key app:keyLabel="¯" app:codes="772"  app:keyWidth="9%p"/>
         <Key app:keyLabel=" ́" app:codes="769" app:keyWidth="9%p"/>
