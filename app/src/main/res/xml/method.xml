@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <subtype
         android:label="Бесерман"
-        android:imeSubtypeLocale="udm_RU"
+        android:imeSubtypeLocale="Бесермянский_RU"
         android:supportsSwitchingToNextInputMethod="true"
         android:imeSubtypeMode="keyboard"/>
 </input-method>
